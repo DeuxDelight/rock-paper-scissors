@@ -94,19 +94,19 @@ function game(){
     displayButton.classList.add('display-button');
     body.appendChild(displayButton);
 
-    const result = document.createElement('div');
-    result.classList.add('result');
+    // const result = document.createElement('div');
+    // result.classList.add('result');
     
-    if(totalRounds === 5){
-        if(playerScore > computerScore){
-            result.textContent = `After 5 rounds you beat the computer ${playerScore} - ${computerScore}!`;
-            displayButton.appendChild(result);
-        }
-        else{
-            result.textContent = `After 5 rounds, you lost against the computer ${computerScore} - ${playerScore}!`;
-            displayButton.appendChild(result);
-        }
-    }
+    // if(totalRounds === 5){
+    //     if(playerScore > computerScore){
+    //         result.textContent = `After 5 rounds you beat the computer ${playerScore} - ${computerScore}!`;
+    //         displayButton.appendChild(result);
+    //     }
+    //     else{
+    //         result.textContent = `After 5 rounds, you lost against the computer ${computerScore} - ${playerScore}!`;
+    //         displayButton.appendChild(result);
+    //     }
+    // }
     
 }
 let playerSelection = '';
